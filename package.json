@@ -1,0 +1,13 @@
+{
+  "name": "election-brochure",
+  "version": "1.0.0",
+  "description": "Election campaign brochure for Prosperity Party",
+  "scripts": {
+    "start": "npx serve -s . -p 3000",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["election", "brochure", "ethiopia", "prosperity-party"],
+  "author": "Prosperity Party",
+  "license": "MIT"
+}
